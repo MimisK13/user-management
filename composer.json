@@ -1,0 +1,27 @@
+{
+    "name": "mimisk13/user-management",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MimisK13",
+            "email": "mimisk88@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mimisk13\\UserManagement\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mimisk13\\UserManagement\\UserManagementServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "spatie/laravel-permission": "^5.9.1"
+    }
+}
